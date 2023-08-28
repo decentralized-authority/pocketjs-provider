@@ -4,9 +4,6 @@
   "description": "",
   "type": "module",
   "source": "src/index.ts",
-  "files": [
-    "dist/**/*"
-  ],
   "exports": {
     "require": "./dist/index.cjs",
     "default": "./dist/index.js"
