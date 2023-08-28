@@ -14,7 +14,8 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "npm run build"
   },
   "types": "dist/src/index.d.ts",
   "keywords": [],
