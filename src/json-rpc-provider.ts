@@ -1,6 +1,6 @@
 import AbortController from 'abort-controller'
 import debug from 'debug'
-import { fetch, Response } from 'undici'
+import fetch from 'isomorphic-fetch';
 import {
   Account,
   AccountWithTransactions,
