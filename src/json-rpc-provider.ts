@@ -1,6 +1,6 @@
 import AbortController from 'abort-controller'
 import debug from 'debug'
-import fetch from 'isomorphic-fetch';
+// import fetch from 'isomorphic-fetch';
 import {
   Account,
   AccountWithTransactions,
